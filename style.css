@@ -109,3 +109,19 @@ footer{
 .foot{
     margin: 2em 5em 10em;
 }
+
+.burger{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0em 0em 0em 20em;
+    display: none;
+}
+ @media (max-width: 930px){
+    .burger {
+        display: block;
+    }
+    .menu{
+        display: none;
+    }
+ }
